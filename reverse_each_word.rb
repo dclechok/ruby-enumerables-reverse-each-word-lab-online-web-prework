@@ -1,10 +1,17 @@
 def reverse_each_word (a_string)
-	arr_w_string = a_string.split
+	rev_array = a_string.chars
 	new_array = []
-
-	arr_w_string.each do |s|  
-		new_array.unshift(s)
+	
+	rev_array.each do |s|  
+		new_array.unshift(s)	
+	end
+	new_string = new_array.join()
+	set_words_array = new_string.split
+	final_array = []
+	set_words_array.each do |word|
+		final_array.unshift(word)
 	end
 
-  return new_array.join(" ")
+	p final_array.join(" ")
+	
 end
