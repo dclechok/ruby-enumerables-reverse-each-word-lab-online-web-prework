@@ -1,4 +1,9 @@
 def reverse_each_word (a_string)
-  a_string.each()
+  new_array = []
+  i = 0
+  a_string.each do |word|
+    new_array[0] = word
+  end
+  
   return new_array
 end
