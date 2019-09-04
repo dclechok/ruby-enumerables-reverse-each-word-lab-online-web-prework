@@ -15,3 +15,7 @@
 # 	p final_array.join(" ")
 	
 # end
+
+def reverse_each_word (a_string)
+  
+end
